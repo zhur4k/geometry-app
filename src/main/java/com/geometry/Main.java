@@ -17,5 +17,6 @@ public class Main {
         System.out.println("Площадь: " + triangle.getSquare());
         System.out.println("Периметр: " + triangle.getPerimeter());
         System.out.println(GeometryUtils.getCommonSquare(circle, rectangle));
+        System.out.println(GeometryUtils.getCommonPerimeter(circle, rectangle));
     }
 }
