@@ -2,7 +2,6 @@ package com.geometry;
 
 public class Main {
     public static void main(String[] args) {
-
         Shape circle = new Circle(5);
         System.out.println(circle.getType());
         System.out.println("Площадь: " + circle.getSquare());
@@ -17,5 +16,6 @@ public class Main {
         System.out.println(triangle.getType());
         System.out.println("Площадь: " + triangle.getSquare());
         System.out.println("Периметр: " + triangle.getPerimeter());
+        System.out.println(GeometryUtils.getCommonSquare(circle, rectangle));
     }
 }
